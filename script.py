@@ -18,3 +18,18 @@
 # 4. Das Programm führt die Berechnung durch und gibt das Ergebnis aus.
 
 # Optional: Erweitern Sie den Taschenrechner um weitere Funktionen wie Potenzierung oder Modulo.
+
+zahl1=float(input("Geben Sie die 1. Zahl ein: "))
+operation=input("Geben Sie die Operation ein: ")
+zahl2=float(input("Geben Sie die 2. Zahl ein: "))
+if operation=="+":
+  ergebnis=zahl1+zahl2
+elif operation=="-":
+  ergebnis=zahl1-zahl2
+elif operation=="*":
+  ergebnis=zahl1*zahl2
+elif operation=="/":
+  ergebnis=zahl1/zahl2
+else:
+  ergebnis="falsche Operation"
+print(ergebnis)
