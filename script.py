@@ -18,3 +18,28 @@
 # 4. Das Programm führt die Berechnung durch und gibt das Ergebnis aus.
 
 # Optional: Erweitern Sie den Taschenrechner um weitere Funktionen wie Potenzierung oder Modulo.
+zahl1=input("Zahl 1: ")
+operation=input("Operation: +,-,/ oder *.")
+zahl2=input("Zahl 2: ")
+
+zahl1=int(zahl1)
+zahl2=int(zahl2)
+
+print(zahl1,operation,zahl2)
+
+if(operation=="+"):
+  ergebnis=zahl1+zahl2
+  print("Ergebnis von Addition:",ergebnis)
+
+elif (operation=="-"):
+  ergebnis=zahl1-zahl2
+  print("Ergebnis von Subtraktion:",ergebnis)
+
+elif (operation=="/"):
+  ergebnis=zahl1/zahl2
+  print("Ergebnis von Division:",ergebnis)
+
+elif(operation=="*"):
+  ergebnis=zahl1*zahl2
+  print("Ergebnis von Multiplikation:",ergebnis)
+
