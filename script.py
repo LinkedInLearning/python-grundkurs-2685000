@@ -40,3 +40,12 @@ print("Die Fläche des Rechtecks ist:", flaeche)
 # Rufen Sie diese Funktion auf und geben Sie das Ergebnis aus.
 # Tipp: https://code.visualstudio.com/docs/python/linting
 #       https://peps.python.org/pep-0008/
+
+def differenz(a:int,b:int) -> int:
+  return a-b
+
+c=differenz(5,4)
+print(c)
+
+d=differenz(5.00,4.00)
+print(d)
